@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 body, html {
   font-family: sans-serif;
   font-size: 10px;
@@ -55,6 +62,8 @@ body, html {
   border: 1px solid transparent;
   border-radius: 20px;
   font-weight: 700;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
   transition: all .5s;
 }
 .wrapper .header-area .header-bg .header-overlay .header-inner nav ul li a:hover {
@@ -179,6 +188,8 @@ body, html {
   background: #000000;
   border-radius: 9px;
   text-transform: uppercase;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
   transition: all .5s;
 }
 @media (min-width: 0px) and (max-width: 1024px) {
@@ -199,7 +210,8 @@ body, html {
 .book-cab-section .book-cab-inner .book-cab-form {
   max-width: 420px;
   background: #fff;
-  box-shadow: 0px 0px 2px 2px #ddd;
+  -webkit-box-shadow: 0px 0px 2px 2px #ddd;
+          box-shadow: 0px 0px 2px 2px #ddd;
   min-height: 400px;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -349,6 +361,8 @@ body, html {
   background: #000000;
   border-radius: 9px;
   text-transform: uppercase;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
   transition: all .5s;
   color: #000000;
   background: #ffc61a;
@@ -435,6 +449,8 @@ body, html {
   background: #000000;
   border-radius: 9px;
   text-transform: uppercase;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
   transition: all .5s;
   color: #ffffff;
   background: #000000;
@@ -532,6 +548,8 @@ body, html {
   background: #000000;
   border-radius: 9px;
   text-transform: uppercase;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
   transition: all .5s;
   color: #000000;
   background: #ffc61a;
@@ -606,6 +624,8 @@ body, html {
   height: 80px;
   background: #ffc61a;
   border-radius: 50%;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
   transition: all .5s;
 }
 .our-service-area .service-overlay .our-service-inner .service-item .service-item-left .service-item-inner .service-icon .service-icon-inner:hover {
@@ -627,7 +647,9 @@ body, html {
   color: #161616;
   font-size: 300%;
   line-height: 30px;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 @media (min-width: 0px) and (max-width: 992px) {
   .our-service-area .service-overlay .our-service-inner .service-item .service-item-left .service-item-inner .service-icon .service-icon-inner i {
@@ -676,6 +698,8 @@ body, html {
   height: 80px;
   background: #ffc61a;
   border-radius: 50%;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
   transition: all .5s;
 }
 .our-service-area .service-overlay .our-service-inner .service-item .service-item-right .service-item-inner .service-icon .service-icon-inner:hover {
@@ -697,7 +721,9 @@ body, html {
   color: #161616;
   font-size: 300%;
   line-height: 30px;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 @media (min-width: 0px) and (max-width: 992px) {
   .our-service-area .service-overlay .our-service-inner .service-item .service-item-right .service-item-inner .service-icon .service-icon-inner i {
@@ -746,6 +772,8 @@ body, html {
   background: #000000;
   border-radius: 9px;
   text-transform: uppercase;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
   transition: all .5s;
   font-size: 200%;
   color: #010101;
@@ -1123,10 +1151,14 @@ body, html {
 .footer-widgets-area .footer-widgets-bg .footer-widgets-overlay .footer-widgets-inner .widgets-item .widgets-item-left .social-icon .fb-icon a i {
   font-size: 240%;
   color: #ffc61a;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
   transition: .5s;
 }
 .footer-widgets-area .footer-widgets-bg .footer-widgets-overlay .footer-widgets-inner .widgets-item .widgets-item-left .social-icon .fb-icon a i:hover {
-  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 .footer-widgets-area .footer-widgets-bg .footer-widgets-overlay .footer-widgets-inner .widgets-item .widgets-item-left .social-icon .google-plus-icon {
   margin: 0px 15px;
@@ -1134,10 +1166,14 @@ body, html {
 .footer-widgets-area .footer-widgets-bg .footer-widgets-overlay .footer-widgets-inner .widgets-item .widgets-item-left .social-icon .google-plus-icon a i {
   font-size: 240%;
   color: #ffc61a;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
   transition: .5s;
 }
 .footer-widgets-area .footer-widgets-bg .footer-widgets-overlay .footer-widgets-inner .widgets-item .widgets-item-left .social-icon .google-plus-icon a i:hover {
-  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 .footer-widgets-area .footer-widgets-bg .footer-widgets-overlay .footer-widgets-inner .widgets-item .widgets-item-left .social-icon .twitter-icon {
   margin-right: 15px;
@@ -1145,18 +1181,26 @@ body, html {
 .footer-widgets-area .footer-widgets-bg .footer-widgets-overlay .footer-widgets-inner .widgets-item .widgets-item-left .social-icon .twitter-icon a i {
   font-size: 240%;
   color: #ffc61a;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
   transition: .5s;
 }
 .footer-widgets-area .footer-widgets-bg .footer-widgets-overlay .footer-widgets-inner .widgets-item .widgets-item-left .social-icon .twitter-icon a i:hover {
-  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 .footer-widgets-area .footer-widgets-bg .footer-widgets-overlay .footer-widgets-inner .widgets-item .widgets-item-left .social-icon .instagram-icon a i {
   font-size: 240%;
   color: #ffc61a;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
   transition: .5s;
 }
 .footer-widgets-area .footer-widgets-bg .footer-widgets-overlay .footer-widgets-inner .widgets-item .widgets-item-left .social-icon .instagram-icon a i:hover {
-  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 .footer-widgets-area .footer-widgets-bg .footer-widgets-overlay .footer-widgets-inner .widgets-item .widgets-item-middle {
   width: 90%;
